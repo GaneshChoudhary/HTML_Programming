@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Image Audio Map in IFrame</title>
+    <style>
+        * {
+            background-color: black;
+            text-align: center;
+        }
+
+        iframe {
+            border-color: black;
+            background-color: white;
+            border-radius: 10px;
+
+        }
+
+        a {
+            border: 2px;
+            border-style: solid;
+            border-color: black;
+            padding: 10px 20px;
+            background: linear-gradient(360deg, orange, yellow);
+            border-radius: 10px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe frameborder="5px" name="media" width="500px" height="300px"></iframe>
+    <br>
+    <br>
+    <div>
+        <a href="video/video.mp4" target="media">Video</a>
+        <a href="video/image.jpg" target="media">Image</a>
+        <a href="video/image2.jpg" target="media">Image-2</a>
+        <a href="video/audio.mp3" target="media">Audio</a>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0949611619053!2d73.85001419999999!3d18.5246104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1db40839fe9%3A0xdef421cceab6dfb9!2sTechnobrilliant%20Learning%20Solutions!5e0!3m2!1sen!2sin!4v1790849460015!5m2!1sen!2sin"
+            target="media">Map</a>
+
+    </div>
+</body>
+
+</html>
